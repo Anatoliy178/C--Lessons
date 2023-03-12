@@ -1,0 +1,15 @@
+D:\VC_Projects\C#\C--Lessons\lesson1\bin\Debug\net7.0\lesson1.exe
+D:\VC_Projects\C#\C--Lessons\lesson1\bin\Debug\net7.0\lesson1.deps.json
+D:\VC_Projects\C#\C--Lessons\lesson1\bin\Debug\net7.0\lesson1.runtimeconfig.json
+D:\VC_Projects\C#\C--Lessons\lesson1\bin\Debug\net7.0\lesson1.dll
+D:\VC_Projects\C#\C--Lessons\lesson1\bin\Debug\net7.0\lesson1.pdb
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\lesson1.csproj.AssemblyReference.cache
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\lesson1.GeneratedMSBuildEditorConfig.editorconfig
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\lesson1.AssemblyInfoInputs.cache
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\lesson1.AssemblyInfo.cs
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\lesson1.csproj.CoreCompileInputs.cache
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\lesson1.dll
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\refint\lesson1.dll
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\lesson1.pdb
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\lesson1.genruntimeconfig.cache
+D:\VC_Projects\C#\C--Lessons\lesson1\obj\Debug\net7.0\ref\lesson1.dll
