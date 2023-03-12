@@ -1,4 +1,4 @@
 ﻿// Деление чисел
-double numberA = 12;
-double numberB = 5;
+double numberA = new Random().Next(1,10); // случайное число от 1 включительно до 10 исключительно
+double numberB = new Random().Next(1,10);
 Console.WriteLine(numberA / numberB);
