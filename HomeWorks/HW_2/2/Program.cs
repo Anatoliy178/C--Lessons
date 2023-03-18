@@ -5,11 +5,7 @@
 78 -> третьей цифры нет
 32679 -> 6                    */
 
-// int a;
-// Console.WriteLine("Введите число: ");
-// int.TryParse(Console.ReadLine()!, out a);
-// int a1 = a % 100 ;
-// Console.WriteLine(a1);
+
 
 
 int number;
