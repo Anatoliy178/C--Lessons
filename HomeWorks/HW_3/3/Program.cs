@@ -5,24 +5,40 @@
 // 12821 -> да
 // 23432 -> да
 
-string number;
 
-// int a;
+int a;
 Console.WriteLine($"Введите число для проверки: ");
-number = Console.ReadLine()!;
+int.TryParse(Console.ReadLine()!, out a);
+int Ab = a;
 
-Console.WriteLine($"{number[0]} + {number[1]}");
-// int.TryParse(Console.ReadLine()!, out a);
+poliandrom(a);
 
-// if (a <= 10000 || a <= 99999)
-// {
-//     int result = a % 100;
-//     Console.WriteLine(result);
-// }
+void poliandrom(int a)
+{
+    string msg = "Это число полиндром!";
+    string msg1 = "Это число не полиндром.";
+    int rev = 0;
+    while (a > 0)
+    {
 
-// string firstFriend = "Maria";
-// string secondFriend = "Sage";
-// Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
+        int d = a % 10;
+        rev = rev * 10 + d;
+        a = a / 10;
 
-// Console.WriteLine($"{firstFriend} {firstFriend.Length}");
-// Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
+    }
+    if (rev == Ab)
+        {
+            Console.WriteLine(msg);
+
+        }
+        else
+        {
+            Console.WriteLine(msg1);
+        }
+}
+
+
+
+
+
+
