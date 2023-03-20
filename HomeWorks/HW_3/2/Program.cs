@@ -7,6 +7,7 @@
 
 double[] pointA = new double[3];
 double[] pointB = new double[3];
+double dist;
 
 Console.WriteLine($"Введите первую кординату первой точки: ");
 double.TryParse(Console.ReadLine()!, out pointA[0]);
@@ -24,26 +25,28 @@ Console.WriteLine($"Введите третью кординату второй 
 double.TryParse(Console.ReadLine()!, out pointB[2]);
 Console.WriteLine();
 
-// double ditance(double[] pointA, double[] pointB)
-// {
-//     double dist = Math.Sqrt(
-//         Math.Pow(pointB[0] - pointA[0], 2)
-//             + Math.Pow(pointB[1] - pointA[1], 2)
-//             + Math.Pow(pointB[2] - pointA[2], 2)
-//     );
-//     return dist;
-// }
+double ditance(double[] pointA, double[] pointB)
+{
+    double dist = Math.Sqrt(
+        Math.Pow(pointB[0] - pointA[0], 2)
+            + Math.Pow(pointB[1] - pointA[1], 2)
+            + Math.Pow(pointB[2] - pointA[2], 2)
+    );
+    return dist;
+}
 
-// dist = ditance(pointA[3], pointB[3]);
+dist = ditance(pointA, pointB);
 
-// Console.WriteLine(dist);
-
+/*
+// Можно не использовать метод distance, а просто использовать формулу ниже. Тоже рабочая версия.
 double dist = Math.Sqrt(
     Math.Pow(pointB[0] - pointA[0], 2)
         + Math.Pow(pointB[1] - pointA[1], 2)
         + Math.Pow(pointB[2] - pointA[2], 2)
 );
 
+*/
+
 double distance = Math.Round(dist, 2);
-System.Console.WriteLine($"Расстояние между точками А и Б = {distance}");
-Console.WriteLine($"Полное расстояние между точками А и Б = {dist}");
+Console.WriteLine($"Расстояние между точками А и Б = {distance}");
+
