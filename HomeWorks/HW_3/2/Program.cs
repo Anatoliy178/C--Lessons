@@ -7,13 +7,13 @@
 
 double[] pointA = new double[3];
 double[] pointB = new double[3];
+
 Console.WriteLine($"Введите первую кординату первой точки: ");
 double.TryParse(Console.ReadLine()!, out pointA[0]);
 Console.WriteLine($"Введите вторую кординату первой точки: ");
 double.TryParse(Console.ReadLine()!, out pointA[1]);
 Console.WriteLine($"Введите третью кординату первой точки: ");
 double.TryParse(Console.ReadLine()!, out pointA[2]);
-Console.WriteLine(pointA);
 Console.WriteLine();
 
 Console.WriteLine($"Введите первую кординату второй точки: ");
@@ -22,7 +22,7 @@ Console.WriteLine($"Введите вторую кординату второй 
 double.TryParse(Console.ReadLine()!, out pointB[1]);
 Console.WriteLine($"Введите третью кординату второй точки: ");
 double.TryParse(Console.ReadLine()!, out pointB[2]);
-Console.Write(pointB);
+Console.WriteLine();
 
 // double ditance(double[] pointA, double[] pointB)
 // {
@@ -34,7 +34,8 @@ Console.Write(pointB);
 //     return dist;
 // }
 
-// double dist = ditance(pointA[3], pointB[3]);
+// dist = ditance(pointA[3], pointB[3]);
+
 // Console.WriteLine(dist);
 
 double dist = Math.Sqrt(
@@ -44,5 +45,5 @@ double dist = Math.Sqrt(
 );
 
 double distance = Math.Round(dist, 2);
-Console.WriteLine($"Расстояние между точками А и Б = {distance}");
-// Console.WriteLine($"Расстояние между точками А и Б = {dist}");
+System.Console.WriteLine($"Расстояние между точками А и Б = {distance}");
+Console.WriteLine($"Полное расстояние между точками А и Б = {dist}");
