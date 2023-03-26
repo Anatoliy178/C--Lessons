@@ -39,5 +39,5 @@ int powerBase = Promt($"Введите число: ");
 int exponent = Promt($"Введите степень: ");
 if(Validator(exponent))
 {
-  Console.WriteLine($"Число {powerBase}  в степение {exponent}  равно {PowerBase(powerBase, exponent)}");
+  Console.WriteLine($"Число {powerBase}  в степени {exponent}  равно {PowerBase(powerBase, exponent)}");
 }
