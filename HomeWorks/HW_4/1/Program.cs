@@ -14,7 +14,7 @@ int Promt(string message)
   return result;
 }
 
-int PowerBase(int powerBase, int exponent)
+Int64 PowerBase(int powerBase, int exponent)
 {
   int power = 1;
   for (int i = 0; i < exponent; i++)
