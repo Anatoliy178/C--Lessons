@@ -10,36 +10,12 @@
 8 4 4 2
 */
 
-// int m,
-//     n;
-// Console.Write("Введите размерность m массива: ");
-// int.TryParse(Console.ReadLine(), out m);
-// Console.Write("Введите размерность n массива: ");
-// int.TryParse(Console.ReadLine(), out n);
-// int[,] randomArray = new int[m, n];
-
 int[,] array =
 {
     { 1, 4, 7, 2 },
     { 5, 9, 2, 3 },
     { 8, 4, 2, 4 }
 };
-
-// void ArrayFilling(int m, int n)
-// {
-//     int i,
-//         j;
-//     Random rand = new Random();
-//     for (i = 0; i < m; i++)
-//     {
-//         for (j = 0; j < n; j++)
-//         {
-//             randomArray[i, j] = rand.Next(1, 9);
-//         }
-//     }
-// }
-
-
 
 void Printmass(int[,] array)
 {
@@ -56,12 +32,9 @@ void Printmass(int[,] array)
     }
 }
 
-// ArrayFilling(m, n);
 Console.WriteLine("\n Исходный массив: ");
 
 Printmass(array);
-
-// Printmass(randomArray);
 
 // Сортировка массива по убыванию
 void ArraySortDescending(int[,] array)
@@ -85,8 +58,6 @@ void ArraySortDescending(int[,] array)
 
 ArraySortDescending(array);
 
-// ArraySortDescending(randomArray);
 Console.WriteLine("\n Отсортированный массив: ");
 
 Printmass(array);
-// Printmass(randomArray);
