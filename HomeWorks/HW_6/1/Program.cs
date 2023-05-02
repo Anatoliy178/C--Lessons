@@ -6,7 +6,7 @@
 
 using System;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, User!");
 
 int ArrayLength(string message)
 {

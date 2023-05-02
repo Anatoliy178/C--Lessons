@@ -57,6 +57,6 @@ int[,] DivMatrix(int[,] matrix1, int[,] matrix2)
 
 PrintMatrix(matrix1);
 Console.WriteLine();
-PrintMatrix(matrix2);
+PrintMatrix(matridivx2);
 Console.WriteLine();
 PrintMatrix(DivMatrix(matrix1, matrix2));
